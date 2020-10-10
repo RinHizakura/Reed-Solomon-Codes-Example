@@ -6,7 +6,7 @@
 int main()
 {
     static struct rs_control *rs_decoder;
-    rs_decoder = init_rs(6);
+    rs_decoder = init_rs(10);
 
     uint16_t par[10];
     uint8_t data8[] = {0x40, 0xd2, 0x75, 0x47, 0x76, 0x17, 0x32, 0x06,
